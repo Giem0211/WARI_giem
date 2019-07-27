@@ -6,8 +6,8 @@ body {
 header {
   background-color: #031926;
   background-repeat: no-repeat;
-  border-top:#73f4a6 5px solid;
-  border-bottom:#73f4a6 5px solid;
+  border-top:#73f4a6 3px solid;
+  border-bottom:#73f4a6 3px solid;
   position: relative;
   height: 100%;
   width: 100%;
