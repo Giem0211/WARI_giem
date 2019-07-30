@@ -6,10 +6,10 @@ body {
 header {
   background-color: #031926;
   background-repeat: no-repeat;
-  border-top:#73f4a6 3px solid;
-  border-bottom:#73f4a6 3px solid;
+  border-top:#73f4a6 5px solid;
+  border-bottom:#73f4a6 5px solid;
   position: relative;
-  height: 100%;
+  height: 50%;
   width: 100%;
 }
 
@@ -38,7 +38,7 @@ a:hover {
 header h1 {
   color:  #F4E9CD;
   font-family: 'Oswald', sans-serif;
-  font-size: 300%;
+  font-size: 80px;
   font-weight: 500;
   text-align: center;
   background-color: #031926;
@@ -48,7 +48,7 @@ header h1 {
 h1 {
   color: ;
   font-family: 'Oswald', sans-serif;
-  font-size: 130%;
+  font-size: 25px;
   font-weight: 300;
   text-transform: uppercase;
 }
@@ -119,8 +119,8 @@ tr th{
   background-color: #DBE9EE;
   box-sizing: border-box;
   padding: 3px;
-  width: 100%;
-  top: 0px;
+  height: auto;
+  width: auto;
   text-align: center;
 }
 

@@ -45,13 +45,13 @@ function get_api_data(){
         var formatted_data = [];
         var a= new Date();
         var weekdays = new Array(7);
-        weekdays[0] = "Saturday";
-        weekdays[1] = "Sunday";
-        weekdays[2] = "Monday";
-        weekdays[3] = "Tuesday";
-        weekdays[4] = "Wednesday";
-        weekdays[5] = "Thursday";
-        weekdays[6] = "Friday";
+        weekdays[0] = "Sat";
+        weekdays[1] = "Sun";
+        weekdays[2] = "Mon";
+        weekdays[3] = "Tue";
+        weekdays[4] = "Wed";
+        weekdays[5] = "Thu";
+        weekdays[6] = "Fri";
 
         for (var i = 0; i < result.list.length; i++) {
             _date = new Date(result.list[i].dt * 1000);
